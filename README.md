@@ -1,7 +1,9 @@
 # The problem
 ---
 
-In the context of workout plan generation you are asked to create a solution that creates the most intense workout by picking entries from a catalog. Each exercise entry (potentially fetched from our API) contains an `average_span` attribute which is the total time taken on average (in minutes) and `average_calorie_consumption` which roughly represents the expected energy spent in calories (numbers may not be accurate). The goal is to maximize the effectiveness of the workout during a given time by picking the most optimal combination of exercises, each exercise being picked only once. 💪
+Given a number of time available for execercising and the available routines with name, time for completing each one and calories burned.
+
+Find the plan of exercises that fits the user on time given and with maximun calories burned.
 
 # Explanation
 
